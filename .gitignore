@@ -1,0 +1,4 @@
+node_modules
+
+apps/nuxt-app/.nuxt
+apps/nuxt-app/.output

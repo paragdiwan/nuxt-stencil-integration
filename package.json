@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        
+        "dev": "cd apps/nuxt-app && npm run dev",
+        "build": "cd apps/nuxt-app && npm run build"
     },
     "author": "",
     "license": "ISC",
