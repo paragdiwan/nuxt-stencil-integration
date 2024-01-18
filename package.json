@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "dev": "cd apps/nuxt-app && npm run dev",
-        "build": "cd apps/nuxt-app && npm run build"
+        "stencil-build": "cd packages/stencil-lib && npm run build",
+        "nuxt-dev": "pnpm stencil-build && cd apps/nuxt-app && npm run dev",
+        "nuxt-build": "cd apps/nuxt-app && npm run build",
+        "build": "npm run stencil-build &&  npm run nuxt-build"
     },
     "author": "",
     "license": "ISC",
